@@ -1,11 +1,11 @@
-import home from '../pages/home.vue'
-import test from '../pages/test.vue'
-import login from '../pages/login.vue'
-import perfectUserInfo from '../pages/perfect_userInfo.vue'
-import imgDetail from '../pages/img_detail.vue'
-import production from '../pages/production.vue'
-import collection from '../pages/collection.vue'
-import collectionDetail from '../pages/collection_detail.vue'
+import home from '../pages/home.vue';
+import test from '../pages/test.vue';
+import login from '../pages/login.vue';
+import perfectUserInfo from '../pages/perfect_userInfo.vue';
+import imgDetail from '../pages/img_detail.vue';
+import production from '../pages/production.vue';
+import collection from '../pages/collection.vue';
+import collectionDetail from '../pages/collection_detail.vue';
 const routes = [
   {
     path: '/test',
