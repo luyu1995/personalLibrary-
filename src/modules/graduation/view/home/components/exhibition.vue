@@ -1,6 +1,7 @@
 <template>
   <div id="exhibition">
-    <span class="title" @click="showProduction">作品展示</span>
+    <span class="title">作品展示</span>
+    <el-input @keydown.native="testone" ></el-input>
     <div class="content">
       <el-card :body-style="{ padding: '0px' } " v-for="(item , index ) in imgBox" :key="index"
                style="display: inline-block;margin: 0 20px;width: 400px;" @click.native="imgDetail(item)">
@@ -30,6 +31,10 @@
       this.getExhibition()
     },
     methods:{
+      testone(){
+        console.log("????????????")
+
+      },
       //转换时间
       changeTime(time){
         return dateFormat(time*1000,'yyyy-mm-dd')
