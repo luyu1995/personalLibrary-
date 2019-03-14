@@ -1,9 +1,11 @@
 import React,{Component} from 'react';
 import {Layout,Menu,Icon} from 'antd';
 import './defaultLayout.css'
+import {Route, Switch} from 'react-router-dom'
+import index from '../../router/home/index'
 const {Header, Footer, Sider, Content,} = Layout;
 const SubMenu = Menu.SubMenu;
-export default class HeadNav extends Component {
+export default class DefaultLayout extends Component {
     handleClick = (e) => {
         console.log('click ', e);
     }
@@ -37,6 +39,9 @@ export default class HeadNav extends Component {
                  </Layout>
                  <Footer>footer</Footer>
              </Layout>
+             <div>
+                 <Route path={this.props.match.url  + '/'} component={index} exact />
+             </div>
          </div>
         )
     }
