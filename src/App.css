@@ -41,6 +41,8 @@
 .nav-left{
   display: inline-block;
   width: 220px;
+  height: calc(100vh);
+  background: #000c17;
 }
 .content-right{
   display: inline-block;

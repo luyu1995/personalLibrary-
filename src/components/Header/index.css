@@ -1,0 +1,11 @@
+.login{
+  height: 30px;
+  background: #ccc;
+  border-bottom: 1px solid #ccc;
+  line-height: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+.login a{
+  margin: 0 20px;
+}
