@@ -1,14 +1,14 @@
 import React,{Component} from 'react';
 import {HashRouter,Route,Switch} from 'react-router-dom';
-export default class RouterWrap extends Component{
+import App from './App'
+export default class Router extends Component{
     render(){
         return (
-            <div id="router">
-                <HashRouter>
-                    <Switch>
-                    </Switch>
-                </HashRouter>
-            </div>
+             <HashRouter>
+                <div>
+                    <Route path="/" component={App}></Route>
+                </div>
+             </HashRouter>
         )
     }
 }

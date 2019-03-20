@@ -11,6 +11,8 @@
 }
 .header-crumbs{
   text-align: center;
+  position: relative;
+  font-size: 16px;
 }
 .header-right-content{
   display: flex;
@@ -21,5 +23,17 @@
   padding: 0 20px !important;
   height: 40px;
   line-height: 40px;
-  /*box-shadow: 0px 2px 12px -3px #eaebeb;*/
+  text-align: center;
+}
+.header-crumbs:after{
+  content: '';
+  border-top: 11px solid #fff;
+  border-left: 20px solid #ccc0;
+  border-right: 20px solid #ccc0;
+  position: absolute;
+  left: -3px;
+  top: 29px;
+}
+.header-weather{
+  margin-left: 20px;
 }
