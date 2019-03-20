@@ -5,6 +5,7 @@
   "dependencies": {
     "antd": "^3.3.0",
     "customize-cra": "^0.2.12",
+    "jsonp": "^0.2.1",
     "less": "^3.9.0",
     "less-loader": "^4.1.0",
     "react": "^16.8.4",

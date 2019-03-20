@@ -1,11 +1,23 @@
 .login{
-  height: 30px;
-  background: #ccc;
-  border-bottom: 1px solid #ccc;
-  line-height: 30px;
+  height: 40px;
+  border-bottom: 1px solid #cccccc45;
+  line-height: 40px;
   display: flex;
   justify-content: flex-end;
 }
 .login a{
   margin: 0 20px;
+}
+.header-crumbs{
+  text-align: center;
+}
+.header-right-content{
+  display: flex;
+  justify-content: flex-end;
+}
+.header{
+  padding: 0 20px !important;
+  height: 40px;
+  line-height: 40px;
+  /*box-shadow: 0px 2px 12px -3px #eaebeb;*/
 }
