@@ -47,6 +47,7 @@
 .content-right{
   display: inline-block;
   width: calc(100vw - 220px);
+  background: #f1f3f5;
 }
 
 @keyframes App-logo-spin {

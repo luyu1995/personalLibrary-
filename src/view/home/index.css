@@ -1,0 +1,11 @@
+.home-warp{
+    height: calc(100vh - 220px );
+    text-align: center;
+    font-size: 20px;
+    margin: 20px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
