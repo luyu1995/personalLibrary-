@@ -1,6 +1,7 @@
 import React from 'react'
 import { Menu } from 'antd';
 import menuList from '../../config/menu'
+import { NavLink } from 'react-router-dom'
 const SubMenu = Menu.SubMenu;
 export default class MenuList extends  React.Component{
     //react生命周期=>相当于amount
@@ -20,7 +21,9 @@ export default class MenuList extends  React.Component{
                     </SubMenu>
                 )
             }
-            return <Menu.Item title={item.title} key={item.key}>{item.title}</Menu.Item>
+            return <Menu.Item title={item.title} key={item.key}>
+                <NavLink to={item.key}>{item.title}</NavLink>
+                </Menu.Item>
 
         })
 
@@ -30,8 +33,8 @@ export default class MenuList extends  React.Component{
             <div>
                 <Menu
                     theme="dark"
-                    defaultSelectedKeys={['1']}
-                    defaultOpenKeys={['sub1']}
+                    defaultSelectedKeys={['/admin/home']}
+                    defaultOpenKeys={['/admin/home']}
                     mode="inline"
                 >
                     {this.state.Menu}

@@ -14,6 +14,10 @@ const menuList = [
             {
                 title:'弹窗',
                 key:'/admin/ui/alert'
+            },
+            {
+                title:'表单',
+                key:'/admin/ui/form'
             }
         ]
     }
