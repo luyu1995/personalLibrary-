@@ -12,13 +12,17 @@ const menuList = [
                 key:'/admin/ui/button'
             },
             {
-                title:'弹窗',
-                key:'/admin/ui/alert'
+                title:'输入框',
+                key:'/admin/ui/inputs'
             },
             {
                 title:'表单',
                 key:'/admin/ui/form'
-            }
+            },
+            {
+                title:'表格',
+                key:'/admin/ui/tables'
+            },
         ]
     }
 ];

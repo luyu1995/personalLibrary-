@@ -1,3 +1,6 @@
 .page-content{
     margin: 20px;
 }
+.ant-spin-nested-loading > div > .ant-spin{
+    position: static;
+}
