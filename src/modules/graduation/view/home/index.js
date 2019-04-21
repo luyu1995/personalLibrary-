@@ -11,10 +11,13 @@ import 'element-ui/lib/theme-chalk/index.css'
 import locale from 'element-ui/lib/locale/lang/zh-CN'
 import IScrollView from 'vue-iscroll-view'
 import IScroll from 'iscroll'
+import echarts from 'echarts'
+
 import {getUserInfo} from "../../../../utils/request";
 Vue.use(IScrollView, IScroll)
 Vue.use(ElementUI, { locale })
 Vue.use(vueCookie)
+Vue.prototype.$echarts = echarts
 
 Vue.config.productionTip = false
 const router = new VueRouter({
